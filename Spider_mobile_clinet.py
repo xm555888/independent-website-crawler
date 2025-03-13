@@ -69,7 +69,7 @@ async def main():
     # 创建 LLM 内容选择器
     llM_extraction = LLMExtractionStrategy(
         provider="deepseek/deepseek-chat",  # 使用 deepseek 作为提供商
-        api_token="sk-fb6d5c1c2b2841cca9117b6bf6f36506",
+        api_token="your_deepseek_api",
         instruction="""
         请从网页内容中提取移动套餐相关的信息。请确保返回的是合法的 JSON 格式数据，格式如下：
         {
